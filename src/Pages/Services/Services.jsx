@@ -27,7 +27,7 @@ import maintenance_icon from "../../assets/maintenance_icon.png";
 import lowcost_icon from "../../assets/lowcost_icon.png";
 import ApproachFormPopup from "../About/ApproachFormPopup";
 
-
+git add src/assets/seo_icon.png
 const Services = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 const services = [

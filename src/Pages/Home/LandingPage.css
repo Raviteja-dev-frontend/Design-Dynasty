@@ -413,11 +413,18 @@
 .process-section .section-title {
   font-size: 3rem;
   font-weight: 700;
+  font-family: ui-monospace;
+  margin-bottom: 30px;
+
   background: linear-gradient(90deg, #caa163, #2d3752);
+
+  /* Standard property first */
+  background-clip: text;
+  color: transparent;
+
+  /* Vendor-prefixed for Chrome & Safari */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 30px;
-   font-family: ui-monospace;
 }
 
 /* Process steps container */
@@ -518,13 +525,22 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+
   background: linear-gradient(90deg, #2d3752, #5a189a, #caa163);
+
+  /* Standard property first */
+  background-clip: text;
+  color: transparent;
+
+  /* Vendor-prefixed for Chrome & Safari */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   padding-top: 30px;
   padding-bottom: 0px;
   margin-bottom: 0px !important;
 }
+
 
 .contact-form-section-5 p {
   color: #666;
@@ -658,11 +674,19 @@
 .contact-brand {
   font-size: 3rem;
   font-weight: 800;
+  margin-bottom: 15px;
+
   background: linear-gradient(90deg, #2d3752, #5a5959);
+
+  /* Standard property first */
+  background-clip: text;
+  color: transparent;
+
+  /* Vendor-prefixed for Chrome/Safari */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 15px;
 }
+
 
 .contact-heading {
   font-size: 1.4rem;
@@ -973,6 +997,8 @@
   background: radial-gradient(circle, #caa163, #2d3752, #caa163);
   background-size: 200% 200%;
   -webkit-background-clip: text;
+  /* Vendor-prefixed for Chrome/Safari */
+  
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;

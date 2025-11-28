@@ -9,7 +9,7 @@ import HeroCards from "./Pages/Home/HeroCards";
 import LandingPage from "./Pages/Home/LandingPage";
 import AnimatedCards from "./Pages/Home/AnimatedCards";
 import About from "./Pages/About/About";
-import Services from "./Pages/Services/Services";
+import Services from "./Pages/Home/Services"
 import Blogs from "./Pages/About/Blogs";
 import Hire from "./Pages/Hire/Hire";
 import ContactPage from "./Pages/About/ContactPage";
